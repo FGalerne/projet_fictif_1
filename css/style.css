@@ -1,6 +1,42 @@
-/* Classe principale de la barre de navigation */
-.navbar-header{
-/* Couleur de fond de la barre de navigation */
-background-color: #F8F8F8;
-border-color: #E7E7E7;
+body
+{
+	background-color: #74E66E;
+
+}
+
+section
+{
+	margin: 0 25px 0 25px;
+}
+
+h3
+{
+	text-align: center;
+}
+
+.btn-primary
+{
+	text-align: center;
+}
+
+.navbar-default
+{
+
+	background-color: 75D66F;
+}
+
+.button
+{
+	text-align: center;
+}
+
+.button1
+{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.img-circle
+{
+	box-shadow: 8px 8px 0px #aaa;
 }
