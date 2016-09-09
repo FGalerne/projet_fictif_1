@@ -1,4 +1,4 @@
-
+@import 'https://fonts.googleapis.com/css?family=Pacifico';
 
 section
 {
@@ -54,10 +54,7 @@ body {
   color: #3b3b3b;
 }
 
-#page-header {
-  text-align: center;
-  padding-top: 30px;
-  margin-bottom: 50px;
+
 }
 
 p{
@@ -65,22 +62,27 @@ p{
 }
 
 h1 {
-  font-size: 25px;
-  font-family: impact;
+  font-size: 16px;
+  font-family: 'Pacifico', cursive;
   font-weight: normal;
-  text-transform: uppercase;
-  margin: 0px;
+  /*text-transform: uppercase;*/
+  margin-bottom: 50px;
   padding: 0px;
-  color: #111111;
+  color: white;
   text-align: center;
-}
-
-#logo h1 {
-  line-height: 150px;
+  line-height: 100px;
   font-size: 6.5em;
   letter-spacing: -5px;
-  text-shadow: 0px 5px #614d0d;
+  text-shadow: 0px 10px rgba(0, 0, 0, 0.5);;
 }
+
+/*#logo h1 {
+  line-height: 100px;
+  font-size: 6.5em;
+  letter-spacing: -5px;
+  text-shadow: 0px 10px rgba(0, 0, 0, 0.5);
+
+}*/
 
 #threeColumns {
   background-color: rgba(225, 225, 225, 0.5);
@@ -91,11 +93,29 @@ h1 {
 }
 
 .navbar-default {
-	background-color: rgba(225, 225, 225, 0.7);
+	/*background-color: rgba(225, 225, 225, 0.7);*/
+  background-color: rgba(200, 255, 200, 0.7);
 }
 
 .thumbnail {
-	background-color: rgba(225, 225, 225, 0.5);
+	/*background-color: rgba(225, 225, 225, 0.5);*/
+  background-color: rgba(200, 255, 200, 0.5);
+}
+
+.button1 
+ {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nom_vache 
+{
+  text-align: center;
+}
+
+.modal1 
+{
+  text-align: center;
 }
 /*#threeColumns #col1 {
   width: 320px;
