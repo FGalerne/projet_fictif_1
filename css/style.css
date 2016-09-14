@@ -84,7 +84,7 @@ h1 {
 }*/
 
 #threeColumns {
-  background-color: rgba(225, 225, 225, 0.5);
+  background-color: rgba(225, 225, 225, 0.7);
   margin: 0 auto;
   padding: 30px 30px;
   /*width: 85%;*/
@@ -92,12 +92,12 @@ h1 {
 }
 
 .navbar-default {
-	background-color: rgba(225, 225, 225, 0.7);
+	background-color: rgba(225, 225, 225, 0.85);
   /*background-color: rgba(200, 255, 200, 0.7);*/
 }
 
 .thumbnail {
-	background-color: rgba(225, 225, 225, 0.5);
+	background-color: rgba(225, 225, 225, 0.7);
   /*background-color: rgba(200, 255, 200, 0.5);**/
 }
 
