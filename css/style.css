@@ -55,7 +55,6 @@ body {
 }
 
 
-}
 
 p{
 	text-align: justify;
@@ -88,7 +87,7 @@ h1 {
   background-color: rgba(225, 225, 225, 0.5);
   margin: 0 auto;
   padding: 30px 30px;
-  width: 85%;
+  /*width: 85%;*/
   overflow: hidden;
 }
 
