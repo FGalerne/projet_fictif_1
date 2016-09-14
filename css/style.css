@@ -92,13 +92,13 @@ h1 {
 }
 
 .navbar-default {
-	/*background-color: rgba(225, 225, 225, 0.7);*/
-  background-color: rgba(200, 255, 200, 0.7);
+	background-color: rgba(225, 225, 225, 0.7);
+  /*background-color: rgba(200, 255, 200, 0.7);*/
 }
 
 .thumbnail {
-	/*background-color: rgba(225, 225, 225, 0.5);*/
-  background-color: rgba(200, 255, 200, 0.5);
+	background-color: rgba(225, 225, 225, 0.5);
+  /*background-color: rgba(200, 255, 200, 0.5);**/
 }
 
 .button1 
@@ -115,6 +115,11 @@ h1 {
 .modal1 
 {
   text-align: center;
+}
+
+.panier 
+{
+  padding-right: 10px;
 }
 /*#threeColumns #col1 {
   width: 320px;
@@ -145,6 +150,8 @@ footer {
 }
 
 @media (max-height:800px) {
+  
+
   footer {
     position: static;
   }
@@ -152,6 +159,8 @@ footer {
     padding-top: 40px;
   }
 }
+
+
 
 .footer-basic-centered {
   background-color: rgba(17, 17, 17, 0.86);
@@ -196,6 +205,8 @@ footer {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 600px) {
+
+
   .footer-basic-centered {
     padding: 35px;
   }
