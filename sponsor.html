@@ -15,249 +15,241 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 
   </head>
+
   <body>
-      
-        
 
+  	<div class="container-fluid">
+		<div class="header">
+	    	<div id="logo">
+	          <h1>La Ferme de Perette</h1>
+	      	</div>
+  		</div>
 
-<!-- Modal -->
-  <header>
-    <div id="logo">
-          <h1>La Ferme de Perette</h1>
-      </div>
-  </header>
+	  <nav class="navbar navbar-default">
+	      <div class="container-fluid">
 
-  <nav class="navbar navbar-default">
-      <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	        <div class="navbar-header">
+	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	              <span class="sr-only">Toggle navigation</span>
+	              <span class="icon-bar"></span>
+	               <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	            </button>
 
-    <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+	        </div>
 
-        </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-               <li><a href="home.html">Accueil</a></li> 
-               <li><a href="produit.html">Nos produits</a></li> 
-              <li class="active"><a href="sponsor.html">Sponsoring<span class="sr-only">(current)</span></a></li>
-              
-              <!--<li><a href="home.html">Accueil</a></li>-->
-              <li><a href="contact.html">Contactez-nous</a></li>
-
-            </ul>
-
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-  </nav>
-
-  <section>
-
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	            <ul class="nav navbar-nav">
+	               <li><a href="home.html">Accueil</a></li> 
+	               <li><a href="produit.html">Nos produits</a></li> 
+	               <li class="active"><a href="sponsor.html">Sponsoring<span class="sr-only">(current)</span></a></li>
+	               <li><a href="contact.html">Contactez-nous</a></li>
+	            </ul>
+	            <ul class="nav navbar-nav navbar-right">
+              		<li class="panier"><button type="button" class="btn btn-default navbar-btn btn btn-success"><i class="fa fa-shopping-cart" aria-hidden="true"> Votre Panier</i></button></li>
+            	</ul>
+	        </div><!-- /.navbar-collapse -->
+	      </div><!-- /.container-fluid -->
+	  </nav>
     
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="thumbnail">                
-              <img src="./img/vache1.jpg" alt="Vache 1">
-                <div class="caption">
-                  <h3 class="nom_vache">Miley</h3>
-                  <p class="Alias">Alias : "Le boulet de démolition"</p>
-                    <ul>
-                      <li>Age : 7 ans</li>
-                      <li>Poids : XXX kg</li>
-                      <li>Taille : X</li>
-                    </ul>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
-                  </div>  
-                </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="thumbnail">                
+          <img src="./img/vache1.jpg" alt="Vache 1">
+            <div class="caption">
+              <h3 class="nom_vache">Miley</h3>
+              <p class="Alias">Alias : "Le boulet de démolition"</p>
+                <ul>
+                  <li>Age : 7 ans</li>
+                  <li>Poids : XXX kg</li>
+                  <li>Taille : X</li>
+                </ul>
             </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="thumbnail">                
-              <img src="./img/vache2.jpg" alt="Vache 2">
-                <div class="caption">
-                  <h3 class="nom_vache">Ségolène</h3>
-                  <p class="Alias">Alias : "La bravitude"</p>
-                    <ul>
-                      <li>Age : 7 ans</li>
-                      <li>Poids : XXX kg</li>
-                      <li>Taille : X</li>
-                    </ul>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
-                  </div>  
-                </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
+              </div>  
             </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="thumbnail">                
-              <img src="./img/vache3.jpg" alt="Vache 3">
-                <div class="caption">
-                  <h3 class="nom_vache">Angela</h3>
-                  <p class="Alias">Alias : "La Fräulein"</p>
-                    <ul>
-                      <li>Age : 7 ans</li>
-                      <li>Poids : XXX kg</li>
-                      <li>Taille : X</li>
-                    </ul>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
-                  </div>  
-                </div>
-            </div>
-          </div><div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="thumbnail">                
-              <img src="./img/vache4.jpg" alt="Nabilla">
-                <div class="caption">
-                  <h3 class="nom_vache">Nabilla</h3>
-                  <p class="Alias">Alias : "Non mais au lait quoi !"</p>
-                    <ul>
-                      <li>Age : 7 ans</li>
-                      <li>Poids : XXX kg</li>
-                      <li>Taille : X</li>
-                    </ul>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
-                  </div>  
-                </div>
-            </div>
-          </div><div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="thumbnail">                
-              <img src="./img/vache5.jpg" alt="Vache 5">
-                <div class="caption">
-                  <h3 class="nom_vache">Cristina</h3>
-                  <p class="Alias">Alias : "Ma chèrieeeeee !"</p>
-                    <ul>
-                      <li>Age : 7 ans</li>
-                      <li>Poids : XXX kg</li>
-                      <li>Taille : X</li>
-                    </ul>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
-                  </div>  
-                </div>
-            </div>
-          </div><div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="thumbnail">                
-              <img src="./img/vache6.jpg" alt="Vache 6">
-                <div class="caption">
-                  <h3 class="nom_vache">Clara</h3>
-                  <p class="Alias">Alias : "La simulatrice"</p>
-                    <ul>
-                      <li>Age : 7 ans</li>
-                      <li>Poids : XXX kg</li>
-                      <li>Taille : X</li>
-                    </ul>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
-                  </div>  
-                </div>
-            </div>
-          </div><div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="thumbnail">                
-              <img src="./img/vache7.jpg" alt="Vache 7">
-                <div class="caption">
-                  <h3 class="nom_vache">Martine</h3>
-                  <p class="Alias">Alias : "La grande braderie"</p>
-                    <ul>
-                      <li>Age : 7 ans</li>
-                      <li>Poids : XXX kg</li>
-                      <li>Taille : X</li>
-                    </ul>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
-                  </div>  
-                </div>
-            </div>
-          </div><div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="thumbnail">                
-              <img src="./img/vache8.jpg" alt="Vache 8">
-                <div class="caption">
-                  <h3 class="nom_vache">Mylène</h3>
-                    <p class="Alias">Alias : "La libertine"</p>
-                    <ul>
-                      <li>Age : 7 ans</li>
-                      <li>Poids : XXX kg</li>
-                      <li>Taille : X</li>
-                    </ul>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
-                  </div>  
-                </div>
-            </div>
-          </div><div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="thumbnail">                
-              <img src="./img/vache9.jpg" alt="Vache 9">
-                <div class="caption">
-                  <h3 class="nom_vache">Jennifer</h3>
-                  <p class="Alias">Alias : "The voice"</p>
-                    <ul>
-                      <li>Age : 7 ans</li>
-                      <li>Poids : XXX kg</li>
-                      <li>Taille : X</li>
-                    </ul>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
-                  </div>  
-                </div>
-            </div>
-          </div>
-
         </div>
       </div>
 
-    
-  </section>
-  </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="thumbnail">                
+          <img src="./img/vache2.jpg" alt="Vache 2">
+            <div class="caption">
+              <h3 class="nom_vache">Ségolène</h3>
+              <p class="Alias">Alias : "La bravitude"</p>
+                <ul>
+                  <li>Age : 7 ans</li>
+                  <li>Poids : XXX kg</li>
+                  <li>Taille : X</li>
+                </ul>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
+              </div>  
+            </div>
+        </div>
+      </div>
 
-
-
-  <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-    <div class="modal-dialog modal-sm" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="modal1">
-            <p>Meuuuuhhhrci !!!</p>
-            <br>
-            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-          </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="thumbnail">                
+          <img src="./img/vache3.jpg" alt="Vache 3">
+            <div class="caption">
+              <h3 class="nom_vache">Angela</h3>
+              <p class="Alias">Alias : "La Fräulein"</p>
+                <ul>
+                  <li>Age : 7 ans</li>
+                  <li>Poids : XXX kg</li>
+                  <li>Taille : X</li>
+                </ul>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
+              </div>  
+            </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="thumbnail">                
+          <img src="./img/vache4.jpg" alt="Nabilla">
+            <div class="caption">
+              <h3 class="nom_vache">Nabilla</h3>
+              <p class="Alias">Alias : "Non mais au lait quoi !"</p>
+                <ul>
+                  <li>Age : 7 ans</li>
+                  <li>Poids : XXX kg</li>
+                  <li>Taille : X</li>
+                </ul>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
+              </div>  
+            </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="thumbnail">                
+          <img src="./img/vache5.jpg" alt="Vache 5">
+            <div class="caption">
+              <h3 class="nom_vache">Cristina</h3>
+              <p class="Alias">Alias : "Ma chèrieeeeee !"</p>
+                <ul>
+                  <li>Age : 7 ans</li>
+                  <li>Poids : XXX kg</li>
+                  <li>Taille : X</li>
+                </ul>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
+              </div>  
+            </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="thumbnail">                
+          <img src="./img/vache6.jpg" alt="Vache 6">
+            <div class="caption">
+              <h3 class="nom_vache">Clara</h3>
+              <p class="Alias">Alias : "La simulatrice"</p>
+                <ul>
+                  <li>Age : 7 ans</li>
+                  <li>Poids : XXX kg</li>
+                  <li>Taille : X</li>
+                </ul>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
+              </div>  
+            </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="thumbnail">                
+          <img src="./img/vache7.jpg" alt="Vache 7">
+            <div class="caption">
+              <h3 class="nom_vache">Martine</h3>
+              <p class="Alias">Alias : "La grande braderie"</p>
+                <ul>
+                  <li>Age : 7 ans</li>
+                  <li>Poids : XXX kg</li>
+                  <li>Taille : X</li>
+                </ul>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
+              </div>  
+            </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="thumbnail">                
+          <img src="./img/vache8.jpg" alt="Vache 8">
+            <div class="caption">
+              <h3 class="nom_vache">Mylène</h3>
+                <p class="Alias">Alias : "La libertine"</p>
+                <ul>
+                  <li>Age : 7 ans</li>
+                  <li>Poids : XXX kg</li>
+                  <li>Taille : X</li>
+                </ul>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
+              </div>  
+            </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="thumbnail">                
+          <img src="./img/vache9.jpg" alt="Vache 9">
+            <div class="caption">
+              <h3 class="nom_vache">Jennifer</h3>
+              <p class="Alias">Alias : "La voix"</p>
+                <ul>
+                  <li>Age : 7 ans</li>
+                  <li>Poids : XXX kg</li>
+                  <li>Taille : X</li>
+                </ul>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="button1"><button type="button" class="btn btn-success" data-toggle="modal" data-target=".bs-example-modal-sm">Je sponsorise cette vache</button></div>
+              </div>  
+            </div>
         </div>
       </div>
     </div>
-           
-        
   </div>
+
+
+	  <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+	    <div class="modal-dialog modal-sm" role="document">
+	      <div class="modal-content">
+	        <div class="modal-body">
+	          <div class="modal1">
+	            <p>Meuuuuhhhrci !!!</p>
+	            <br>
+	            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+	          </div>
+	        </div>
+	      </div>
+	    </div>   
+	  </div>
         <!-- ********* Three columns End ********** -->
         
          <!-- ********* Footer Start ********** -->
-
+  </div>
   <footer class="footer-basic-centered">
 
     <p class="footer-company-motto"></p>
