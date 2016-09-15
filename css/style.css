@@ -61,7 +61,7 @@ p{
 }
 
 h1 {
-  font-size: 16px;
+  
   font-family: 'Pacifico', cursive;
   font-weight: normal;
   /*text-transform: uppercase;*/
@@ -133,6 +133,12 @@ h1 {
 {
     overflow: hidden;
   }
+
+.mobile-title
+{
+  display: inline-block;
+  margin: 0 auto;
+}
 /*#threeColumns #col1 {
   width: 320px;
   float: left;
@@ -162,6 +168,11 @@ footer {
 }
 
 @media (max-height:800px) {
+
+  h1
+  {
+    font-size: 5.5em
+  }
   
 
   footer {
@@ -229,22 +240,28 @@ footer {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 600px) {
-
+  
+  h1
+  {
+    font-size: 4.5em
+  }
 
   .footer {
     padding: 15px;
   }
   .footer .adress {
-    font-size: 18px;
+    font-size: 12px;
   }
   .footer .footer-company-name {
     font-size: 12px;
   }
   .footer .footer-links {
-    font-size: 14px;
-    padding: 25px 0 20px;
+    font-size: 12px;
+    /*padding: 25px 0 20px;*/
   }
   .footer .footer-links a {
-    line-height: 1.8;
+    line-height: 1;
+    display: inline-block;
+    padding-left: 10px;
   }
-}
+  
