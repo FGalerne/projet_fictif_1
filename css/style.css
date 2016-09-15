@@ -39,6 +39,8 @@ h3
   margin: 0;
 }
 
+
+
 html {
   background-color: #eaf0f2;
 }
@@ -83,11 +85,9 @@ h1 {
 
 }*/
 
-.fond_home {
+.fond_home, .bg-success{
   background-color: rgba(225, 225, 225, 0.7);
-  margin: 0 auto;
   padding: 30px 30px;
-  /*width: 85%;*/
   overflow: hidden;
 }
 
@@ -127,6 +127,7 @@ h1 {
   display: inline-block;
   margin: 0 auto;
 }
+
 footer {
   /*position: fixed;*/*
   bottom: 0;
