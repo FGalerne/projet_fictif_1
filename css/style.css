@@ -122,46 +122,11 @@ h1 {
   padding-right: 10px;
 }
 
-.cadrec
-{
-    border-radius: 50px;
-    opacity: 0.9;
-
-}
-
-.radiusc
-{
-    overflow: hidden;
-  }
-
 .mobile-title
 {
   display: inline-block;
   margin: 0 auto;
 }
-/*#threeColumns #col1 {
-  width: 320px;
-  float: left;
-  margin-right: 85px;
-  text-align: justify;
-}
-
-#threeColumns #col2 {
-  width: 320px;
-  float: left;
-  margin-right: 85px;
-  text-align: justify;
-}
-
-#threeColumns #col3 {
-  width: 320px;
-  float: left;
-  text-align: justify;
-}*/
-
-
-/* In our demo, the footers are fixed to the bottom of the page */
-
 footer {
   /*position: fixed;*/*
   bottom: 0;
