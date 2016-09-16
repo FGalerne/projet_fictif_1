@@ -75,8 +75,9 @@ u" crossorigin="anonymous">
       			<img src="./img/redim/camembert.jpg" alt="camembert">
       			<div class="caption">
         			<h3>Camembert</h3>
-              <p>Fromage à pâte molle à croûte fleurie fabriqués avec le lait des vaches de notre ferme.</p><br/><br/><br/>
+              <button type="buttonD" class="btn btn-success" data-toggle="modal" data-target=".camembert">Description</button>
               <div class="row">
+              <br>
                 <div class="col-xs-7">
                   <p>Quantité: 
                     <select class="form-control-xs "> 
@@ -111,6 +112,7 @@ u" crossorigin="anonymous">
       			</div>
     		</div>
   		</div>
+
 
   			<div class="col-xs-12 col-sm-4 col-md-3 ">
     			<div class="thumbnail">
@@ -350,7 +352,18 @@ u" crossorigin="anonymous">
         </footer>
         </div>
     </div>
-    
+
     </body>
 
+<div class="modal fade camembert" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div><br>
+          Fromage à pâte molle à croûte fleurie fabriqués avec le lait des vaches de notre ferme.</div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Fermer</button>
+          </div>
+        </div>   
+    </div>
+</div>
 </html>
